@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# dbt
+target/
+dbt_packages/
+
+# keys and local secrets
+keys/*.json
+.env
+
+# logs
+logs/
+
+# editor
+.vscode/
