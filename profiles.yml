@@ -9,5 +9,5 @@ dbt_learning:
       keyfile: ./keys/BIGQUERY.json
       threads: 1
       timeout_seconds: 300
-      location: US
+      location: europe-west4
       priority: interactive
