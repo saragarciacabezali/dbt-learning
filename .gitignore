@@ -1,18 +1,15 @@
+# Ignore the virtual environment directory
 .venv/
-__pycache__/
-*.pyc
 .DS_Store
 
-# dbt
-target/
-dbt_packages/
-
-# keys and local secrets
-keys/*.json
-.env
-
-# logs
+# Ignore the dbt log files
 logs/
 
-# editor
-.vscode/
+# Ignore the dbt target directory
+target/
+
+# Ignore the keys
+keys/*
+
+# Ignore the .user.yml local dbt tracking file
+.user.yml
