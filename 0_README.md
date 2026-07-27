@@ -46,3 +46,15 @@ You can then use:
 ```bash
 dbt-learning
 ```
+
+## How to use this repo as a learning tool
+
+This project is meant to be both a working dbt starter and a place to reinforce what you learn. As you go through the basics, you can use the repo files as a reference and as a self-check:
+
+- [1_DBT_CONFIG_SUMMARY.md](1_DBT_CONFIG_SUMMARY.md) explains the main configuration files and how they fit together.
+- [2_DBT_COMMANDS_REFERENCE.md](2_DBT_COMMANDS_REFERENCE.md) gives you the core dbt commands and the purpose of each one.
+- [review_questions.md](review_questions.md) lets you test your understanding step by step.
+- [review_answers.md](review_answers.md) collects the polished answers so you can compare your thinking with a stronger version.
+- [certification_study_sheet.md](certification_study_sheet.md) condenses the most important ideas into a compact certification-style summary.
+
+In other words, the repo is not only a starter project — it is also a small learning notebook that you can revisit whenever you want to review the concepts.
