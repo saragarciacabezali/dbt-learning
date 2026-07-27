@@ -17,6 +17,10 @@ Before getting started, make sure you have:
 - Python 3.9+ (recommended 3.10 or newer)
 - Git
 - A terminal with shell access
+- Access to a BigQuery project and dataset
+- A Google Cloud service account JSON key file for BigQuery authentication
+
+The project is currently configured to use a service account key at keys/bigquery.json via the profile in profiles.yml. In this repo, that means having the JSON key file at keys/BIGQUERY.json and permission to use the target project and dataset.
 
 ## Initial Setup
 
@@ -42,8 +46,3 @@ You can then use:
 ```bash
 dbt-learning
 ```
-
-
-## Helpful note
-
-If you are using BigQuery, make sure your profile is configured for the BigQuery adapter and that your credentials are available in your environment.
