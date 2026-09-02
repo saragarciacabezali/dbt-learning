@@ -1,0 +1,4 @@
+return_id,order_id,return_date,reason
+8001,5004,2023-01-18,damaged
+8002,5006,2023-01-27,size_issue
+8003,5008,2023-02-05,changed_mind

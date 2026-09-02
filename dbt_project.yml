@@ -3,7 +3,10 @@ version: '1.0.0'
 
 profile: dbt_learning
 
+model-paths: ["models"]
+seed-paths: ["seeds"]
+
 models:
   dbt_learning:
-    staging:
+    sources:
       +materialized: view

@@ -13,3 +13,4 @@ keys/*
 
 # Ignore the .user.yml local dbt tracking file
 .user.yml
+dbt_internal_packages/

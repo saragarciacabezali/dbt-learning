@@ -1,0 +1,11 @@
+order_id,customer_id,order_date,order_status,channel
+5001,1,2023-01-10,completed,web
+5002,2,2023-01-12,completed,store
+5003,3,2023-01-15,completed,web
+5004,4,2023-01-16,returned,web
+5005,5,2023-01-20,completed,store
+5006,6,2023-01-25,completed,web
+5007,7,2023-02-01,completed,web
+5008,8,2023-02-03,completed,store
+5009,9,2023-02-08,completed,web
+5010,10,2023-02-10,completed,web
